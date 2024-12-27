@@ -1,0 +1,91 @@
+/* Container general */
+#container {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Buton pentru generare notificare */
+  .btn-generate {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-generate:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+
+    /*Pentru contact */
+  .contact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+
+  /* Lista de task-uri */
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+  }
+  
+  /* Fiecare item din listă */
+  .task-item {
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 16px;
+  }
+  
+  .task-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Stilizează titlul task-ului */
+  .task-label h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  /* Stilizează descrierea task-ului */
+  .task-label p {
+    font-size: 14px;
+    color: #666;
+    margin: 4px 0;
+  }
+  
+  /* Stilizează data/ora */
+  .task-label p:last-child {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+  }
+  
